@@ -1,4 +1,4 @@
-import { ROOT_NAME } from "../env.js";
+import { ROOT_NAME } from "../../env.js";
 
 (() => {
   const link = sessionStorage.getItem("link");

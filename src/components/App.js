@@ -1,12 +1,7 @@
-class App extends HTMLElement {
-  constructor() {
-    // Always call super first in constructor
-    super();
-  }
+import { html } from "../../libs/preact.js";
 
-  connectedCallback() {
-    console.log("Custom element moved to new page.");
-  }
-}
+const App = () => {
+  return html`<main className="container mx-auto px-4"></main>`;
+};
 
 export default App;
