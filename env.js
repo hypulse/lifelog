@@ -1,3 +1,3 @@
-const ROOT_NAME = "blog";
+const ROOT_NAME = "lifelog";
 
 export { ROOT_NAME };
